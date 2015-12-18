@@ -1,0 +1,28 @@
+{
+    "name": "shampeak/mso",
+    "description": "dev",
+    "type": "package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "shampeak",
+            "email": "shampeak@sina.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php" : ">=5.5.9",
+        "ext-mbstring" : "*"
+    },
+    "require-dev": {
+    },
+    "autoload":{
+        "psr-4":{
+            "App\\": "App",
+            "Grace\\": "Grace",
+            "Sham\\": "Sham"
+        }
+    }
+}
+
+
